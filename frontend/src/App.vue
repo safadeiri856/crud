@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>🛒 مشروع CRUD - إدارة المنتجات</h1>
-    <p class="hint">Vue.js (Frontend) + Node.js/Express (Backend حقيقي)</p>
+    
 
     <ProductForm :editing-product="editingProduct" @save="saveProduct" @cancel="cancelEdit" />
 
